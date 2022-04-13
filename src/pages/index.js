@@ -1,13 +1,21 @@
 import * as React from "react"
-import { StaticImage } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+
+import "./index.scss";
 
 // markup
 const IndexPage = () => {
   return (
     <main>
-      <header>
-        <StaticImage src=""></StaticImage>
-      </header>
+      <div className="main-container">
+        <header>
+          <StaticImage
+            src="../images/full.png"
+            alt="gabaghouls"
+            className="full-logo"
+          />
+        </header>
+      </div>
     </main>
   )
 }

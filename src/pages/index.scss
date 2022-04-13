@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300;400&family=Rubik+Wet+Paint&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(#020C1F,
+      #0F285A 20%,
+      #2987BB 60%,
+      #DD914E 85%,
+      #A93A3A);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+
+  .full-logo {
+    min-width: 200px;
+    width: 40%;
+    margin-top: 100px;
+  }
+}
