@@ -1,6 +1,7 @@
 $svg-icon-size: 1.5em;
 
 nav.nav {
+  z-index: 1;
   position: fixed;
   top: 0;
   left: 0;
@@ -11,14 +12,14 @@ nav.nav {
   background: linear-gradient(black, rgb(0, 0, 0, 0));
 
   font-family: 'Permanent Marker', cursive;
-  font-size: calc(12px + 0.5vw);
+  font-size: calc(12px + 0.75vw);
   color: white;
 
   .hands {
     min-width: 55px;
     width: 5%;
     max-width: 100px;
-    margin: 10px;
+    margin: 10px 1.5em;
   }
 
   .nav-link {

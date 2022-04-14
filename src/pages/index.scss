@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300;400&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$max-content-width: 1925px;
 
 body {
   margin: 0;
   padding: 0;
 }
 
-
-
-main {
-  min-height: 100vh;
-  background: linear-gradient(#020C1F,
-      #0F285A 20%,
-      #2987BB 60%,
-      #DD914E 85%,
-      #A93A3A);
+.main-container {
+  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -21,8 +21,52 @@ header {
   justify-content: center;
 
   .full-logo {
-    min-width: 200px;
+    min-width: 150px;
+    width: 30em;
+  }
+}
+
+.about {
+  border: 1px solid red;
+  display: flex;
+  // flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.1pt;
+  color: white;
+  max-width: $max-content-width;
+
+  .wings {
     width: 40%;
-    margin-top: 100px;
+    min-width: 330px;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 500px;
+    min-width: 300px;
+  }
+}
+
+.team {
+  color: white;
+  max-width: $max-content-width;
+  border: 1px solid green;
+  text-align: center;
+
+  h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5em;
+  }
+
+  .team-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    // text-align: left;
   }
 }

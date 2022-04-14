@@ -11,8 +11,8 @@ const Nav = () => (
       alt="small logo"
       className="hands"
     />
-    <Link to="#about" className="nav-link">ABOUT</Link>
-    <Link to="#team" className="nav-link">TEAM</Link>
+    <Link to="/#about" className="nav-link">ABOUT</Link>
+    <Link to="/#team" className="nav-link">TEAM</Link>
     <Link to="roadmap" className="nav-link">ROADMAP</Link>
     <Link to="mint" className="nav-link">MINT</Link>
     <Link to="faq" className="nav-link">FAQ</Link>

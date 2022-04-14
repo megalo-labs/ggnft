@@ -1,3 +1,11 @@
 .page-wrapper {
   position: relative;
+  background: linear-gradient(#020C1F,
+      #0F285A 20%,
+      #2987BB 60%,
+      #DD914E 85%,
+      #A93A3A);
+  min-height: 100vh;
+  padding-top: 100px;
+  box-sizing: border-box;
 }
