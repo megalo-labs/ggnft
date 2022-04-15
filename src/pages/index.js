@@ -22,13 +22,11 @@ const IndexPage = () => {
         </header>
         {/* ************ ABOUT ************ */}
         <div className="about" id="about">
-          <div className="about-image">
-            <img
-              src={wings}
-              alt="wings"
-              className="wings"
-            />
-          </div>
+          <img
+            src={wings}
+            alt="wings"
+            className="wings"
+          />
           <div className="about-content">
             <h2>Wtf is a GabaGhoul?</h2>
             <p>GabaGhouls are haunted creatures generated from Italian deli meats. They are a gang of 7,500, randomly generated on the Ethereum blockchain. GabaGhouls aims to achieve an inclusive community full of benefits and perks for owners. We encourage member feedback and appreciate involvement from our community. Through collaboration we can maximize utility and allow GabaGhouls to take the NFT space by storm. Take a look at our roadmap or something.</p>

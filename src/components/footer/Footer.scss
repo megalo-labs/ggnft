@@ -1,0 +1,49 @@
+$svg-icon-size: 1.3em;
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-top: 4px solid #660000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .footer-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+    .footer-logos {
+      display: flex;
+      justify-content: space-evenly;
+
+      .hands {
+        width: 90px;
+      }
+
+      .footer-logo {
+        height: 90px;
+        width: 90px;
+      }
+    }
+
+    .footer-text {
+      &>* {
+        margin: 0.5em 0;
+      }
+
+      .indent {
+        margin-left: 2em;
+      }
+
+      .indent-socials {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
