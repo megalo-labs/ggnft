@@ -1,3 +1,5 @@
+$dropdown-speed: 200ms;
+
 nav.nav {
   z-index: 1;
   position: fixed;
@@ -5,7 +7,6 @@ nav.nav {
   left: 0;
   right: 0;
   display: flex;
-  align-items: center;
 
   background: linear-gradient(black, rgb(0, 0, 0, 0));
 
@@ -21,27 +22,83 @@ nav.nav {
   }
 
   .nav-link {
-    margin: 0 20px;
     color: currentColor;
     text-decoration: none;
-    box-shadow: drop-shadow(0 0 75px #000000);
+    filter: drop-shadow(0 0 12px #000000);
 
     &:hover {
       color: crimson;
     }
   }
 
-  .social-icons,
+
   .bi-list {
+    &:hover {
+      color: crimson;
+      cursor: pointer;
+    }
+  }
+}
+
+.nav-links.shown {
+  margin-top: 0;
+  opacity: 100%;
+  transition-property: opacity, margin-top;
+  transition-duration: $dropdown-speed;
+}
+
+@media only screen and (max-width: 725px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    filter: drop-shadow(0 0 40px black);
+    margin-top: -250px;
+    opacity: 0;
+
+    transition-property: opacity, margin-top;
+    transition-duration: $dropdown-speed;
+
+    .nav-link {
+      display: block;
+      margin: 0.5em 1.5em;
+      font-size: x-large;
+    }
+  }
+
+  .social-icons {
+    display: none;
+  }
+
+  .bi-list {
+    position: absolute;
+    top: 1.5em;
+    right: 1em;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media only screen and (min-width: 725px) {
+  .nav {
+    align-items: center;
+  }
+
+  .nav-links {
+    display: flex;
+
+    .nav-link {
+      margin: 0 20px;
+    }
+  }
+
+  .social-icons {
     margin-left: auto;
     margin-right: 1em;
   }
 
   .bi-list {
     display: none;
-
-    &:hover {
-      cursor: pointer;
-    }
   }
 }
