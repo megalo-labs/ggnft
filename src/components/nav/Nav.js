@@ -19,6 +19,8 @@ const Nav = () => {
     'shown': shown
   });
 
+  const onLinkClick = () => setShown(false);
+
   useEffect(() => {
     const onScroll = () => {
       if (!ticking && (window.scrollY > lastY + 30 || window.scrollY < lastY - 100)) {
@@ -37,7 +39,7 @@ const Nav = () => {
 
   return (
     <nav className="nav">
-      <Link to="/">
+      <Link to="/" onClick={onLinkClick}>
         <StaticImage
           src="../../images/hands.png"
           alt="small logo"
@@ -45,11 +47,11 @@ const Nav = () => {
         />
       </Link>
       <div className={linksClass}>
-        <Link to="/#about" className="nav-link">ABOUT</Link>
-        <Link to="/#team" className="nav-link">TEAM</Link>
-        <Link to="/roadmap" className="nav-link">ROADMAP</Link>
-        <Link to="/mint" className="nav-link">MINT</Link>
-        <Link to="/faq" className="nav-link">FAQ</Link>
+        <Link to="/#about" className="nav-link" onClick={onLinkClick}>ABOUT</Link>
+        <Link to="/#team" className="nav-link" onClick={onLinkClick}>TEAM</Link>
+        <Link to="/roadmap" className="nav-link" onClick={onLinkClick}>ROADMAP</Link>
+        <Link to="/mint" className="nav-link" onClick={onLinkClick}>MINT</Link>
+        <Link to="/faq" className="nav-link" onClick={onLinkClick}>FAQ</Link>
       </div>
       <Hamburger
         onClick={() => {
