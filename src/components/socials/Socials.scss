@@ -4,6 +4,11 @@ $svg-icon-size:calc(1em + .3vw);
   display: flex;
   // display: none;
 
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
   svg {
     margin: 0 0.5em;
     width: $svg-icon-size;
