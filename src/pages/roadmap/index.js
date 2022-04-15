@@ -1,9 +1,9 @@
 import * as React from "react";
 
 const RoadMapPage = () => (
-  <div className="roadmap">
+  <main className="roadmap">
     <h1>Roadmap</h1>
-  </div>
+  </main>
 );
 
 export default RoadMapPage;

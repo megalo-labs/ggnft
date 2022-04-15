@@ -56,6 +56,7 @@ nav.nav {
     filter: drop-shadow(0 0 40px black);
     margin-top: -250px;
     opacity: 0;
+    z-index: -1;
 
     transition-property: opacity, margin-top;
     transition-duration: $dropdown-speed;

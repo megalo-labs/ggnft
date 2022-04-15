@@ -14,7 +14,7 @@ const Nav = () => {
   const [lastY, setLastY] = useState(0);
   const [ticking, setTicking] = useState(false);
 
-  let linksClass = classNames({
+  const linksClass = classNames({
     'nav-links': true,
     'shown': shown
   });
@@ -37,17 +37,19 @@ const Nav = () => {
 
   return (
     <nav className="nav">
-      <StaticImage
-        src="../../images/hands.png"
-        alt="small logo"
-        className="hands"
-      />
+      <Link to="/">
+        <StaticImage
+          src="../../images/hands.png"
+          alt="small logo"
+          className="hands"
+        />
+      </Link>
       <div className={linksClass}>
         <Link to="/#about" className="nav-link">ABOUT</Link>
         <Link to="/#team" className="nav-link">TEAM</Link>
-        <Link to="roadmap" className="nav-link">ROADMAP</Link>
-        <Link to="mint" className="nav-link">MINT</Link>
-        <Link to="faq" className="nav-link">FAQ</Link>
+        <Link to="/roadmap" className="nav-link">ROADMAP</Link>
+        <Link to="/mint" className="nav-link">MINT</Link>
+        <Link to="/faq" className="nav-link">FAQ</Link>
       </div>
       <Hamburger
         onClick={() => {
