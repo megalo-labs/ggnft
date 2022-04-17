@@ -7,10 +7,12 @@ import "./index.scss";
 import wings from "../images/wings.gif";
 import memberJSON from "../../content/members.json";
 import TeamCard from "../components/teamcard/TeamCard";
+import Columns from "../components/columns/Columns";
 
 // markup
 const IndexPage = () => (
   <main>
+    <Columns />
     <div className="main-container">
       {/* *********** HEADER *********** */}
       <header>

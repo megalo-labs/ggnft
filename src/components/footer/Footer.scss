@@ -1,10 +1,16 @@
 $svg-icon-size: 1.3em;
 
+$footer-content-padding: 1em;
+$logos-width: 90px;
+$text-margin: 0.5em;
+$border-width: 4px;
+$footer-height: calc((2 * $footer-content-padding) + $logos-width + (3 * 18.5px) + (4 * $text-margin) + $border-width);
+
 footer {
   display: flex;
   justify-content: center;
   background-color: black;
-  border-top: 4px solid #660000;
+  border-top: $border-width solid #660000;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -13,7 +19,7 @@ footer {
   .footer-content-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 1em 0;
+    padding: $footer-content-padding 0;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 
@@ -22,12 +28,12 @@ footer {
       justify-content: space-evenly;
 
       .hands {
-        width: 90px;
+        width: $logos-width;
       }
 
       .footer-logo {
-        height: 90px;
-        width: 90px;
+        height: $logos-width;
+        width: $logos-width;
       }
     }
 

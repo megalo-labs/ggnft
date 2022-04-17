@@ -1,3 +1,8 @@
+@use "Nav";
+@use "Footer";
+
+$content-padding: 1em;
+
 .page-wrapper {
   position: relative;
   background: linear-gradient(#020C1F,
@@ -6,7 +11,7 @@
       #DD914E 85%,
       #A93A3A);
   min-height: 100vh;
-  padding-top: 100px;
-  padding-bottom: 250px;
+  padding-top: calc(Nav.$nav-height + $content-padding);
+  padding-bottom: calc(Footer.$footer-height + $content-padding);
   box-sizing: border-box;
 }

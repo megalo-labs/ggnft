@@ -8,8 +8,13 @@ import "./Nav.scss";
 
 // ??
 var classNames = require('classnames');
+const scrollDown = 30;  // hide after scrolling pixels
+const scrollUp = 100;
 
 const Nav = () => {
+  /**
+   * if user scrolls past 
+   */
   const [shown, setShown] = useState(false);
   const [lastY, setLastY] = useState(0);
   const [ticking, setTicking] = useState(false);
@@ -23,7 +28,7 @@ const Nav = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      if (!ticking && (window.scrollY > lastY + 30 || window.scrollY < lastY - 100)) {
+      if (!ticking && (window.scrollY > lastY + scrollDown || window.scrollY < lastY - scrollUp)) {
         window.requestAnimationFrame(() => {
           setShown(false);
           setTicking(false);

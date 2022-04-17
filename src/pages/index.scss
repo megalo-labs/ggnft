@@ -30,11 +30,10 @@ body {
 
 .inline-link {
   color: currentColor;
-  opacity: 75%;
+  text-decoration-thickness: 3px;
 
   &:hover {
     color: crimson;
-    opacity: 100%;
   }
 }
 
