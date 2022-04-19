@@ -1,6 +1,4 @@
 .roadmap {
-  color: white;
-
   h1 {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
@@ -11,5 +9,9 @@
     opacity: 60%;
     font-size: large;
     text-align: center;
+  }
+
+  .column {
+    padding-top: 6em;
   }
 }

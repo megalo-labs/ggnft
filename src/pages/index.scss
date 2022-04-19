@@ -16,6 +16,9 @@ body {
   overflow: hidden;
 }
 
+.column {
+  padding-top: 700px;
+}
 
 .inline-link {
   color: currentColor;
@@ -86,7 +89,6 @@ header {
   .team-cards-container {
     display: flex;
     flex-wrap: wrap;
-    // justify-content: space-between;
     width: 100%;
   }
 }
