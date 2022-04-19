@@ -8,10 +8,15 @@ import wings from "../images/wings.gif";
 import memberJSON from "../../content/members.json";
 import TeamCard from "../components/teamcard/TeamCard";
 import Columns from "../components/columns/Columns";
+import Helmet from "react-helmet";
 
 // markup
 const IndexPage = () => (
   <main>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>HOME | GABAGHOULS NFT</title>
+    </Helmet>
     <Columns />
     <div className="main-container">
       {/* *********** HEADER *********** */}
