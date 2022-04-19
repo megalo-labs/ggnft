@@ -13,6 +13,7 @@ const RoadMapPage = () => (
       <title>ROADMAP | GABAGHOULS NFT</title>
     </Helmet>
     <h1>Roadmap</h1>
+    <h2 className="drop-tip">Click an entry to see more</h2>
     <div className="roadmap-sections">
       {roadMapJSON.content.map(data => (
         <RoadMapSection

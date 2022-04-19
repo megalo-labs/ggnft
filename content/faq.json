@@ -1,0 +1,53 @@
+{
+  "title": "FAQ questions and answers",
+  "content": [
+    {
+      "question": "What is an NFT?",
+      "answer": "NFT is an acronym for “Non-Fungible Token” which means a unique, one of a kind item. Some NFT functions are created simply to be aesthetically pleasing digital art whereas others offer some additional utility. For example, some may offer exclusive access to merchandise, websites, or participation in an event. NFTs can be thought of as a hybrid of digital artwork and membership voucher/certification.  "
+    },
+    {
+      "question": "What is Ethereum?",
+      "answer": "Ethereum is a blockchain-based platform known for their currency ETH which is highly favored in the NFT Community. Per their website: “Ethereum is open access to digital money and data-friendly services for everyone - no matter your background or location. It's a community-built technology behind the cryptocurrency ether (ETH) ...”"
+    },
+    {
+      "question": "What is Minting?",
+      "answer": "Minting refers to the process of turning a digital file into a crypto collectible or digital asset on the Ethereum blockchain which is done to create an NFT. The digital item is then stored on the Ethereum BlockChain Network, which is a decentralized database/distributed ledger. It is stored here forever and becomes impossible to edit, modify, or delete. Minting turns a simple file into a crypto asset that is easily bought/traded with cryptocurrencies on a digital marketplace, without an intermediary. In terms of GabaGhouls, minting is the initial purchase of your very own GabaGhoul NFT!!!"
+    },
+    {
+      "question": "I want to join your Association, how do I do that?",
+      "answer": "By joining the Discord, Wise Guy! "
+    },
+    {
+      "question": "How do I mint a GabaGhoul?",
+      "answer": "Click the “Mint” tab on our website. From there, follow prompts to connect your MetaMask wallet or other cryptocurrency wallet to our website. Connecting a wallet to our site is safe and secure. We do not control your wallet so we have zero access to anything you control. This connection allows you to trade ETH for your GabaGhoul NFT! We do recommend MetaMask over other wallets for its efficiency and security. "
+    },
+    {
+      "question": "How do I set up a MetaMask? ",
+      "answer": "Metamask is a software/application-based cryptocurrency wallet that stores your Ethereum. MetaMask is needed to mint a GabaGhoul NFT through our website and to purchase, transfer, and sell our NFT on OpenSea. When you establish a wallet, it is associated with an Ethereum address (i.e. 0xOGC….69420), which is also where your NFT is stored. See the Metamask Website FAQ section for more information. "
+    },
+    {
+      "question": "Where can I get a GabaGhoul NFT after mint?",
+      "answer": "Opensea is the secondary market platform that the GabaGhouls team has chosen due to its longevity, current resume of projects using the website, and easy user interface."
+    },
+    {
+      "question": "What is “Gas”?",
+      "answer": "If you are new to the NFT space, then it is imperative that you understand this concept. Gas is considered to be a transaction fee. For a transaction on the Ethereum blockchain to occur, you are required to pay a fee for a crypto miner to “decrypt” your transaction, essentially allowing it to go through. This is the extreme benefit of cryptocurrency. A wise guy once said “If you are good at something, don't do it for free.” "
+    },
+    {
+      "question": "Is the GabaGhoul NFT project a good investment?",
+      "answer": "Overall, the secondary market determines the monetary value of a project based on buyers and sellers of the project. Overall value is subjective and varies from person to person. As for any asset or collectible, the success of our project has many variables. That being said, our team is passionate about instilling value into our project in order to have a very, VERY long lifespan. See our roadmap for more details on how we are planning to add value and utility. We pride ourselves on transparency and our collaborative culture to ensure GabaGhouls is a staple in the NFT community for years to come! "
+    },
+    {
+      "question": "Will there be exclusive events?",
+      "answer": "Having in person events is a main priority for our team. Web 3.0 is enthralling, but we cannot forget why we are doing this project: family. We want to have incredible events, both private and public. Owning a GabaGhoul NFT will give you unique access to private events. "
+    },
+    {
+      "question": "Do I need a GabaGhoul to be in raffles? ",
+      "answer": "No! We will be holding non-holder raffles as well. Turn on Twitter notifications and be on the lookout in the Discord>Announcements tab for information regarding raffles."
+    },
+    {
+      "question": "What are your official social media accounts?",
+      "answer": "Find our social links at the top or bottom of the site. "
+    }
+  ]
+}
