@@ -15,9 +15,22 @@
     padding: 1em;
     border-radius: 3px;
     margin-bottom: 0.75em;
+    position: relative;
+
+    .avatar-bg {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      border-radius: 3px;
+      opacity: 85%;
+    }
 
     img {
       width: 100%;
+      opacity: 100%;
     }
   }
 

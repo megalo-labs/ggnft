@@ -15,6 +15,7 @@ $content-padding: 1em;
   padding-bottom: calc(Footer.$footer-height + $content-padding);
   box-sizing: border-box;
   color: white;
+  z-index: -2;
 }
 
 

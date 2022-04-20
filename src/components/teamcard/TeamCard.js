@@ -6,10 +6,11 @@ import "./TeamCard.scss";
 const TeamCard = props => {
   return (
     <div className="team-card">
-      <div
-        className="team-card-avatar"
-        style={{ backgroundColor: props.memberColor }}
-      >
+      <div className="team-card-avatar">
+        <div
+          className="avatar-bg"
+          style={{ backgroundColor: props.memberColor }}>
+        </div>
         <img
           src={withPrefix(props.memberAvatar)}
           alt={`${props.memberName} avatar`}
