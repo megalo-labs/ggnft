@@ -1,8 +1,7 @@
 .roadmap-section {
-  cursor: pointer;
-
   details>summary {
     list-style: none;
+    cursor: pointer;
   }
 
   details>summary::marker,
