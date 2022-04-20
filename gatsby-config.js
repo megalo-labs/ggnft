@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/ggnft",
   siteMetadata: {
     title: `GabaGhouls NFT`,
-    siteUrl: `https://megalo-labs.github.io/ggnft/`
+    siteUrl: `https://megalo-labs.github.io/`
   },
   plugins: [
     {

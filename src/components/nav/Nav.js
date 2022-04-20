@@ -6,7 +6,7 @@ import Hamburger from "../../../assets/list.svg";
 
 import "./Nav.scss";
 
-// ??
+// ?? shouldn't webpack be complaining about this?
 var classNames = require('classnames');
 const scrollDown = 30;  // hide after scrolling pixels
 const scrollUp = 100;
@@ -64,7 +64,7 @@ const Nav = () => {
           setLastY(window.scrollY);
         }}
       />
-      <Socials className="socials-nav" />
+      <Socials />
     </nav>
   );
 }

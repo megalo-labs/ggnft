@@ -1,4 +1,5 @@
 import * as React from "react";
+import { withPrefix } from "gatsby";
 
 import "./TeamCard.scss";
 
@@ -7,7 +8,7 @@ const TeamCard = props => {
     <div className="team-card">
       <div className="team-card-avatar">
         <img
-          src={props.memberAvatar}
+          src={withPrefix(props.memberAvatar)}
           alt={`${props.memberName} avatar`}
           className="team-card-avatar-img"
         />

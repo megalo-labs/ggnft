@@ -53,6 +53,10 @@ nav.nav {
 @media only screen and (max-width: 725px) {
   .nav {
     flex-direction: column;
+
+    .social-icons {
+      display: none;
+    }
   }
 
   .nav-links {
@@ -69,10 +73,6 @@ nav.nav {
       margin: 0.5em 1.5em;
       font-size: x-large;
     }
-  }
-
-  .social-icons {
-    display: none;
   }
 
   .bi-list {
