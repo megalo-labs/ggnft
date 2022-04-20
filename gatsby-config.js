@@ -18,12 +18,19 @@ module.exports = {
       options: {
         "trackingId": "G-3E7WR7CEG9"
       }
-    }, "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
+    },
+    "gatsby-plugin-image",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         "icon": "src/images/hands.png"
       }
-    }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+    },
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "images",
