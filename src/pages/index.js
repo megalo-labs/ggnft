@@ -44,7 +44,7 @@ const IndexPage = () => (
       <div className="team" id="team">
         <h2>Meet the Team</h2>
         <div className="team-cards-container">
-          {memberJSON.content.map((data) => (
+          {memberJSON.content.map(data => (
             <TeamCard {...data}
               memberAvatar={data.memberAvatar}
               key={data.memberName.toLowerCase()}

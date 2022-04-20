@@ -15,7 +15,7 @@ const MintPage = () => (
     <div className="coming-soon">
       <div>
         <h2>Coming Soon!</h2>
-        <p>To get early access, head over to our socials to enter one of the 1/1 giveaways!</p>
+        <p>Get ready for the family feast! The smorgasbord drop of 7,500 GabaGhouls coming soon 👻</p>
       </div>
     </div>
   </main>

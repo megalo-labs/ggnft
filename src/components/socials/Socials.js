@@ -4,6 +4,7 @@ import Discord from "../../../assets/discord.svg";
 import Instagram from "../../../assets/instagram.svg";
 import TikTok from "../../../assets/tiktok.svg";
 import Twitter from "../../../assets/twitter.svg";
+import YouTube from "../../../assets/youtube.svg";
 
 import "./Socials.scss";
 
@@ -17,6 +18,9 @@ const Socials = () => (
     </a>
     <a href="https://www.tiktok.com/@gabaghoulsnft" target="_blank" rel="noreferrer">
       <TikTok />
+    </a>
+    <a href="https://www.youtube.com/channel/UC3WuYZ33gpSRShdptlAwfLg" target="_blank" rel="noreferrer">
+      <YouTube />
     </a>
     <a href="https://mobile.twitter.com/gabaghoulsnft" target="_blank" rel="noreferrer">
       <Twitter />
