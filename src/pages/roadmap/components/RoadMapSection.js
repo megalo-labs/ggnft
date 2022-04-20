@@ -26,7 +26,7 @@ const RoadMapSection = props => {
           <h2>{props.sectionTitle}</h2>
           <p>{props.sectionContent}</p>
         </summary>
-        <ul>{props.sectionSummary.map(listMapper)}</ul>
+        <ul>{props.sectionSummary ? props.sectionSummary.map(listMapper) : <li>Loading...</li>}</ul>
       </details>
     </div>
   );
