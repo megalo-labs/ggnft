@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgaba_ghouls=self.webpackChunkgaba_ghouls||[]).push([[302],{3337:function(e,a,s){s.r(a);var l=s(7294);a.default=function(e){return l.createElement("div",{className:"single-faq"},l.createElement("details",null,l.createElement("summary",null,l.createElement("h2",{className:"question"},e.question)),l.createElement("p",{className:"answer"},e.answer)))}}}]);
+//# sourceMappingURL=component---src-pages-faq-components-single-faq-js-54ce4f225d1ef4e11b92.js.map
