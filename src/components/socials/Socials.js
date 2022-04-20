@@ -11,7 +11,7 @@ import "./Socials.scss";
 
 const Socials = () => (
   <div className="social-icons">
-    <a href="/" title="OpenSea">
+    <a href="https://opensea.io/collection/gabaghouls" target="_blank" rel="noreferrer" title="OpenSea">
       <OpenSea />
     </a>
     <a href="https://discord.gg/2YWCpXF6GX" target="_blank" rel="noreferrer" title="Discord">
