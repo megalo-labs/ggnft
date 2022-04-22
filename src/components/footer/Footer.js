@@ -1,10 +1,18 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import Socials from "../socials/Socials";
+import { navigate } from "@reach/router"
 
 import MlDark from "../../../assets/ML_dark.svg";
+import Speedometer from "../../../assets/speedometer.svg";
 
 import "./Footer.scss";
+
+const AdminButton = () => (
+  <div className="admin-button">
+    <Speedometer onClick={() => navigate('/admin/')} />
+  </div>
+);
 
 const Footer = () => (
   <footer>
@@ -29,6 +37,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
+    <AdminButton />
   </footer>
 );
 

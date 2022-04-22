@@ -16,6 +16,23 @@ footer {
   left: 0;
   right: 0;
 
+  .admin-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+
+    &:hover {
+      opacity: 100%;
+    }
+
+    svg {
+      width: 30px;
+      height: 30px;
+      color: #660000;
+    }
+  }
+
   .footer-content-wrapper {
     display: flex;
     flex-direction: column;
